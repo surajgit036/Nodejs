@@ -1,3 +1,5 @@
+
+
 const { readFile, writeFile } = require('fs').promises
 // const util = require('util')
 // const readFilePromise = util.promisify(readFile)
@@ -20,6 +22,7 @@ const start = async () => {
 
 start()
 
+ //  const {readFile} = require('fs')
 // const getText = (path) => {
 //   return new Promise((resolve, reject) => {
 //     readFile(path, 'utf8', (err, data) => {
