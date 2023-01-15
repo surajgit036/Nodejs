@@ -31,7 +31,7 @@ const server = http.createServer((req, res) => {
   }
   // image/logo
   else if (url === '/logo.svg') {
-    res.writeHead(200, { 'content-type': 'image/svg+xml' })
+    res.writeHead(200, { 'content-type': 'image/svg+xml' })           //******* */
     res.write(homeImage)
     res.end()
   }
