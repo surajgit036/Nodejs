@@ -2,6 +2,7 @@
 // if want custom extend from class
 // otherwise just for emitting and handling events create instance
 const EventEmitter = require('events')
+const { mainModule } = require('process')
 
 const customEmitter = new EventEmitter()
 
@@ -19,3 +20,4 @@ customEmitter.on('response', () => {
 })
 
 customEmitter.emit('response', 'john', 34)
+
